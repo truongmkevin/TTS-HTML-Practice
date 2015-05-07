@@ -1,13 +1,98 @@
 body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: url(http://www.awwcute.org/wp-content/uploads/2013/03/WKIHo7t.jpg);
+
+  -webkit-background-size: auto, auto;
+  -moz-background-size: auto, auto;
+  -o-background-size: auto, auto;
+  background-size: auto, auto;
+
+  /*  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+
 }
 
 #title { /*Use # for id; id is used for just special instances, typicaly one time use.*/
-  color: purple;
+  color: white;
+  font-size: 2.6em;
 }
 
 .restaurant-group { /*Use . for class; class is for multiple usage.*/
-  background-color: #AAA
+  background-color: rgba(114,92,68,0.6);
+  margin: 10px;
+  padding: 10px 10px 20px 10px;
+  border-radius: 10px;
 }
 
+.restaurant-group h2 {
+  text-transform: uppercase;
+  color: #d7c2af;
+}
 
+.restaurant-group h3 {
+  color: #FFF;
+  font-weight: normal;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 1000px;
+  border: 2px solid #000084;
+}
+
+a:hover {
+  background-color: #555;
+  padding: 15px;
+
+}
+
+p {
+  font-size: 1.2em; /*em is relative, this line makes the font size 120% larger than the default, a preferred method*/
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100; /*Can be 100-900*/
+  color: #d7c2af;
+  line-height: 125%;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+div.play {
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#one {
+  background-color: red;
+}
+
+#two {
+  background-color: purple;
+}
+
+#three {
+  background-color: blue;
+}
+
+#four {
+  background-color: green;
+  display: none;
+}
+
+img {
+  float: left;
+  width=8%;
+}
