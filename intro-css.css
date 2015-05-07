@@ -1,0 +1,13 @@
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#title { /*Use # for id; id is used for just special instances, typicaly one time use.*/
+  color: purple;
+}
+
+.restaurant-group { /*Use . for class; class is for multiple usage.*/
+  background-color: #AAA
+}
+
+
